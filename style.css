@@ -1,5 +1,23 @@
-h1 {
-    background-color:rgb(215, 214, 214);
-    width: 100%;
+@font-face {
+    font-family: roboto;
+    src: url(Fonts/Roboto-Regular.ttf);
 }
 
+@font-face {
+    font-family: roboto-med;
+    src: url(Fonts/Roboto-Medium.ttf);
+}
+
+li {
+    font-family: roboto;
+}
+
+h2 {
+    font-family: roboto-med;
+}
+
+header {
+    background-color:rgb(215, 214, 214);
+    font-family: roboto-med;
+    padding: 5px;
+}
